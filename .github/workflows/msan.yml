@@ -21,7 +21,7 @@ jobs:
         if: runner.os == 'Linux'
         run: | 
           sudo apt-get update
-          sudo apt-get install -y libmaxminddb-dev libmaxminddb0 autopoint
+          sudo apt-get install -y libmaxminddb-dev libmaxminddb0 autopoint gettext
           
       - name: Build repository 
         run: | 
